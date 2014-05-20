@@ -19,8 +19,7 @@ _______
 Team B:
 Scott Russell
 Ahmet Sen
-
-
+Tim Smith
 
 Team C:
 _______
