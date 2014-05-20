@@ -18,9 +18,11 @@ _______
 
 Team B:
 _______
-Scott Russell\n
-Ahmet Sen\n
-Tim Smith\n
+Scott Russell
+
+Ahmet Sen
+
+Tim Smith
 
 Team C:
 _______
