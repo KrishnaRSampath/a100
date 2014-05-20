@@ -17,10 +17,8 @@ _______
 
 
 Team B:
-______
-
 Scott Russell
-
+Ahmet Sen
 
 
 
