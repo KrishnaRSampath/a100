@@ -16,7 +16,7 @@ _______
 
 
 
-Team B:
+Team B: Branching Bad
 _______
 Scott Russell
 
