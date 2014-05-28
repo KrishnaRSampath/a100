@@ -119,7 +119,7 @@
           font-size: 1.4em;
           letter-spacing: -.045em;
           line-height: 1.3em;
-          color: #7b7c7f; }
+          color: black; }
 
         .headerDarkBGXS {
           font-family: 'Montserrat', sans-serif;
@@ -128,6 +128,7 @@
           letter-spacing: -.045em;
           line-height: 1.3em;
           color: white; }
+
 
       /* Content */
         .textDarkBG {
@@ -197,7 +198,15 @@
           color: #7b7c7f;
           padding-left: 5%;
           padding-right: 5%; }
-
+  .faqheading {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 2.00em;
+          letter-spacing: -.045em;
+          line-height: 1.1em;
+          color: black;
+          
+          padding-right: 5%; }
         .companyLink {
           font-family: 'Montserrat', sans-serif;
           font-weight: 400;
