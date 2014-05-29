@@ -37,7 +37,7 @@
   		<div id="heroContent">
 
   			<div class="col-sm-8 col-sm-offset-2 topMarginSmall bottomMargin">
-  				<a href="http://www.formstack.com/forms/?1453552-6NRer6Wuik" target="_blank">
+  				<a href="http://www.formstack.com/forms/?1453552-6NRer6Wuik" class="bump" rel="650-450">
   					<p class="companyLink">Are you an employer looking for access to A100 talent?</p>
   				</a>
   			</div>
@@ -55,11 +55,14 @@
   			</div>
 
   			<div class="topMarginMedium bottomMargin">
-  				<!-- <a href="http://www.formstack.com/forms/?1431268-XiMahhyQLI" target="_blank"> -->
-  				<svg width="320" height="60">
-  					<rect width="320" height="60" style="fill:#006496;" />
-  				</svg>
-  				<!--</a>-->
+  				<a href="javascript://fsLightbox1431268.show()" ID="light-box_link">
+  					<img class="heroApply" src="assets/img/buttonApply.png"></img>
+  				</a>
+  			</div>
+  			<div>
+  				<a href="javascript://fsLightbox1453552.show()" ID="light-box_link">
+  					<img class="heroApply" src="assets/img/buttonApply.png"></img>
+  				</a>
   			</div>
 
   		</div>
@@ -678,7 +681,9 @@
 
 
 
-  										<!-- // APPLY & APPLY XS // -->
+
+
+<!-- // APPLY & APPLY XS - Lightbox Implementation // -->
 
   										<section id="apply" class="hidden-xs">
   											<div class="container-fluid">
@@ -686,7 +691,7 @@
   												<div class="row">
 
   													<div class="col-xs-12 centered">
-  														<a href="http://www.formstack.com/forms/?1431268-XiMahhyQLI" target="_blank"><img src="assets/img/buttonApply.png"></a>
+  														<p><a href="javascript://fsLightbox1431268.show()" ID="light-box_link"><img src="assets/img/buttonApply.png"></img></a></p>
   													</div>
 
   												</div>
@@ -710,7 +715,7 @@
   												<div class="row">
 
   													<div class="col-xs-12 centered">
-  														<a href="http://www.formstack.com/forms/?1431268-XiMahhyQLI" target="_blank"><img src="assets/img/buttonApply.png" width="200" height="auto"></a>
+  														<p><a href="javascript://fsLightbox1431268.show()" ID="light-box_link"><img src="assets/img/buttonApply.png" width="200" height="auto"></img></a></p>
   													</div>
 
   												</div>
@@ -726,35 +731,7 @@
   											</div>
   										</section>
 
-  										<!-- // END APPLY & APPLY XS // -->
-
-
-
-
-  										<!-- // TUITION // -->
-
-<!-- 	<section id="tuition">
-		<div class="container-fluid">
-	
-			<div class="row">
-	
-				<div class="col-xs-12 centered">
-					<p class="headerLightBG">A100 is completely FREE for Apprentices.</p>
-					<p class="textLightBG">
-					A100 is an initiative of Independent Software with support from Connecticut Innovations.
-					<br />
-					This support allows us to operate free of charge to Apprentices.
-					</p>
-				</div>
-	
-			</div>
-		
-		</div>
-	</section> -->
-
-	<!-- // END TUITION //-->
-
-
+<!-- // END APPLY & APPLY XS - Lightbox Implementation // -->
 
 
 	<!-- // APPLICANTS // -->
@@ -766,7 +743,7 @@
 
 				<div class="col-md-5 col-md-offset-1">
 					<h2 class="faqheading" ><u>Frequently Asked Questions:</u></h2>
-					<p class="headerLightBG small">What is A100 program?</p>
+					<p class="headerLightBG small">What is the A100 program?</p>
 					<p class="textLightBG">
 						A100 is an initiative Independent Software with support from Connecticut innovations. This support allows us to operate free of charge to Apprentices. <br />
 						<br />
@@ -796,13 +773,14 @@
 										<br />
 										A Junior, Senior, or Graduate student in CS, EE, Math, or a related discipline interested in building real-world skills to find a fruitful job after graduation.
 									</p>
-									<p class="textLightBG"><b>
-										If you have further questions about the A100 Apprenticeship Program, please review the Program`s Terms and Conditons:</b>
+									<p class="textLightBG">
+										Further discover the A100 Program through this introductory video:
 									</p>
-									
-										<a href="terms.pdf"  style="color:blue; font-size:20px; text-decoration: underline" data-lightbox="width:900;height:600;type:iframe;">
-											A100 Apprentice Program Terms and Conditions
-										</a>
+									<a href="http://player.vimeo.com/video/63910158" class="bump" rel="500-281"><p class="companyLink">A100 Promo Video</p></a>
+									<p class="textLightBG">
+										Or, if you have further questions about the A100 Apprentice Program, please review the Program's Terms and Conditons:
+									</p>
+									<a href="terms.pdf" class="bump" rel="900-600"><p class="companyLink">A100 Apprentice Program Terms and Conditions</p></a>
 									
 								</div>
 								
@@ -985,6 +963,51 @@
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jribbble.js"></script>
     <script src="assets/js/site-ck.js"></script>
+
+    <!-- A100 Apprentice Program Application - Lightbox HTML Form formatting and JavaScript -->
+    <div id="fsLightbox1431268" class="fsLightbox" style="display:none;">
+       	<div align="right" style="padding-bottom:0px;"><a id="fsLightboxClose1431268" href="#" title="close"><img src="http://www.formstack.com/forms/images/2/cross.gif" border="0" /></a></div>
+       	
+        <div id="fsLightboxContent1431268" style="height:450px; width:650px; padding-top:0px; overflow:auto;">
+        	<script type="text/javascript" src="http://www.formstack.com/forms/js.php?1431268-XiMahhyQLI-v3"></script>
+        </div>
+    </div>
+	<script src="http://www.formstack.com/forms/js/lightbox.js"></script>
+
+	<script>
+            var fsLightbox1431268 = new FSLightbox({form: 1431268,
+                handleText: "A100 Program Application", handlePosition: "left", handleImage: "http://www.formstack.com/forms/lightboxHandle.php?str=A100+Program+Application",
+                handle: "light-box_link"
+            });
+	</script>
+	    
+    <!-- A100 Partner Company Application - Lightbox HTML Form formatting and JavaScript -->\
+    <div id="fsLightbox1453552" class="fsLightbox" style="display:none;">
+       	<div align="right" style="padding-bottom:0px;"><a id="fsLightboxClose1453552" href="#" title="close"><img src="http://www.formstack.com/forms/images/2/cross.gif" border="0" /></a></div>
+       	
+        <div id="fsLightboxContent1453552" style="height:450px; width:650px; padding-top:0px; overflow:auto;">
+        	<script type="text/javascript" src="http://www.formstack.com/forms/js.php?1453552-6NRer6Wuik-v3"></script>
+        </div>
+    </div>
+	<script src="http://www.formstack.com/forms/js/lightbox.js"></script>
+
+	<script>
+            var fsLightbox1453552 = new FSLightbox({form: 1453552,
+                handleText: "A100 Partner Company Application", handlePosition: "left", handleImage: "http://www.formstack.com/forms/lightboxHandle.php?str=A100+Partner+Company+Application",
+                handle: "light-box_link"
+            });
+	</script>
+
+
+
+
+	
+    <!-- Bumpbox (Lightbox clone) JavaScript
+    ================================================== -->
+    <script src="assets/js/mootools.js"></script>
+	<script src="assets/js/bumpbox-2.0.1.js"></script>
+	<!-- bumpbox fields function doBump(names, inSpeed, outSpeed, boxColor, backColor, bgOpacity, bRadius, borderWeight, borderColor, boxShadowSize, boxShadowColor, iconSet) -->
+	<script type="text/javascript"> doBump('.bump',100,10,'FFF','999','0.5',1,1,'000',10,'000',1);</script>
 
 </body>
 </html>
