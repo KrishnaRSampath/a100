@@ -240,7 +240,7 @@ function doBump(names, inSpeed, outSpeed, boxColor, backColor, bgOpacity, bRadiu
 					var middleV = (h) / 2;
 					var endleft = (w - maxw) / 2;
 					var endtop = ((h - maxh) / 2) + s;
-								
+
                     eff2.start({
                         'width': [maxw, 1],
                         'height': [maxh, 1],
