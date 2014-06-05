@@ -58,13 +58,13 @@
         background: #006496;
         padding: 50px; }
 
-      #samples,
       #technologies,
       #tuition,
       #applicants {
         background: white;
         padding: 50px; }
 
+	  #samples,
       #skills,
       #apply,
       #applyXS,
