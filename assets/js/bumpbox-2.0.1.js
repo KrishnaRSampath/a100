@@ -82,7 +82,7 @@ function doBump(names, inSpeed, outSpeed, boxColor, backColor, bgOpacity, bRadiu
     if (!bgImage) {
         bgImage = 'images/ajax-loader.gif';
     }
-    var iconPath = 'iconsets/' + iconSet + '/';
+    var iconPath = 'assets/iconsets/' + iconSet + '/';
     // position close button according to border width
     closeBtnPos = borderWeight + 10;
     closeBtnPos = -closeBtnPos;
