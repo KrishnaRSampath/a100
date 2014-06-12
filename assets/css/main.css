@@ -80,6 +80,13 @@
       .noTopPadding { padding-top: 0px; }
 
       .noBottomPadding { padding-bottom: 0px; }
+	  
+	  .fsLightbox { 
+		height:550px;
+		width:650px;
+		padding-top:0px;
+		overflow:auto;
+		padding-bottom:0px; }
 
     /* Type */
 
@@ -357,8 +364,6 @@
 		  color: #000;
 		  text-align: center;
 		  margin: 0 0 5px; }
-		.fsLightbox {
-		  position: fixed; }
 
    
     /* CONTACT */
