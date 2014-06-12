@@ -81,12 +81,17 @@
 
       .noBottomPadding { padding-bottom: 0px; }
 	  
-	  .fsLightbox { 
+	  .fsLightbox {
+		display:none; }
+
+	  .fsLightboxClose {
+		padding-bottom:0px; }
+		
+	  .fsLightboxContent {
 		height:550px;
 		width:650px;
 		padding-top:0px;
-		overflow:auto;
-		padding-bottom:0px; }
+		overflow:auto; }
 
     /* Type */
 
@@ -362,7 +367,7 @@
 	/* Forms */
 		#form_text {
 		  color: #000;
-		  text-align: center;
+		  text-align: right;
 		  margin: 0 0 5px; }
 
    
