@@ -58,13 +58,13 @@
         background: #006496;
         padding: 50px; }
 
-      #samples,
       #technologies,
       #tuition,
       #applicants {
         background: white;
         padding: 50px; }
 
+	  #samples,
       #skills,
       #apply,
       #applyXS,
@@ -80,6 +80,18 @@
       .noTopPadding { padding-top: 0px; }
 
       .noBottomPadding { padding-bottom: 0px; }
+	  
+	  .fsLightbox {
+		display:none; }
+
+	  .fsLightboxClose {
+		padding-bottom:0px; }
+		
+	  .fsLightboxContent {
+		height:550px;
+		width:650px;
+		padding-top:0px;
+		overflow:auto; }
 
     /* Type */
 
@@ -119,7 +131,16 @@
           font-size: 1.4em;
           letter-spacing: -.045em;
           line-height: 1.3em;
-          color: #7b7c7f; }
+          color: black; }
+		  
+		 .headerLightBGsmall {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 1.2em;
+          font-size: 1.2em;
+          letter-spacing: -.045em;
+          line-height: 1.3em;
+          color: black; }
 
         .headerDarkBGXS {
           font-family: 'Montserrat', sans-serif;
@@ -128,6 +149,7 @@
           letter-spacing: -.045em;
           line-height: 1.3em;
           color: white; }
+
 
       /* Content */
         .textDarkBG {
@@ -197,8 +219,17 @@
           color: #7b7c7f;
           padding-left: 5%;
           padding-right: 5%; }
-
-        .companyLink {
+		  
+		.faqheading {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 2.00em;
+          letter-spacing: -.045em;
+          line-height: 1.1em;
+          color: black;
+          padding-right: 5%; }
+		  
+        .bumpLink {
           font-family: 'Montserrat', sans-serif;
           font-weight: 400;
           font-size: 1.2em;
@@ -207,7 +238,8 @@
           position: relative;
           top: 10%;
           left: 53%; */
-          color: #7b1219; }
+          color: #7b1219;
+		  padding-left: 10%; }
 
         .moreInfo {
          bottom: 30px;
@@ -238,6 +270,9 @@
         #heroContent a {
           color: #7b7c7f;
           text-decoration: none; }
+          text-decoration: none; }
+		  
+	  
 
 
     /* PROGRAM */
@@ -328,6 +363,12 @@
           letter-spacing: -0.01em;
           color: #3e3e3e;
           text-align: left; }
+		  
+	/* Forms */
+		#form_text {
+		  color: #000;
+		  text-align: right;
+		  margin: 0 0 5px; }
 
    
     /* CONTACT */
