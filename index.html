@@ -44,12 +44,12 @@
         <div class="topMarginMedium visible-lg visible-md">
           <div class="row">
             <div class="col-lg-push-1 col-md-push-1 col-md-6 bottomMargin">
-              <a onclick="javascript:apprenticeBox_1.show()" ID="apprenticeBox_1">
+              <a onclick="javascript:apprenticeBox_1.show()" id="apprenticeBox_1">
                 <img class="heroApply" src="assets/img/buttonApprentice.png"/>
               </a>
             </div>
             <div class="col-lg-pull-1 col-md-pull-1 col-md-6 bottomMargin">
-              <a onclick="javascript:partnerBox_1.show()" ID="partnerBox_1">
+              <a onclick="javascript:partnerBox_1.show()" id="partnerBox_1">
                 <img class="heroApply" src="assets/img/buttonCompany.png"/>
               </a>
             </div>
@@ -60,12 +60,12 @@
         <div class="topMarginMedium visible-sm visible-xs">
           <div class="row">
             <div class="col-sm-6 col-xs-12 bottomMargin">
-              <a href="application.html" ID="apprenticeBox_1">
+              <a href="application.html" id="apprenticeBox_1">
                 <img class="heroApply" src="assets/img/buttonApprentice.png"/>
               </a>
             </div>
             <div class="col-sm-6 col-xs-12 bottomMargin">
-              <a href="enrollment.html" ID="partnerBox_1">
+              <a href="enrollment.html" id="partnerBox_1">
                 <img class="heroApply" src="assets/img/buttonCompany.png"/>
               </a>
             </div>
@@ -686,63 +686,6 @@
 <!-- // END SAMPLES // -->
 
 
-
-
-
-
-<!-- // APPLY & APPLY XS - Lightbox Implementation // -->
-
-    <!-- <section id="apply" class="hidden-xs">
-      <div class="container-fluid">
-
-        <div class="row">
-
-          <div class="col-xs-12 centered">
-            <p><a href="javascript://fsLightbox1431268.show()" ID="apprenticeBox_2"><img src="assets/img/buttonApply.png"></img></a></p>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-xs-12 centered topMarginSmall">
-            <p class="textLightBG">Next Cohort: March 2014</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-
-
-    <section id="applyXS" class="visible-xs">
-      <div class="container-fluid">
-
-        <div class="row">
-
-          <div class="col-xs-12 centered">
-            <p><a href="javascript://fsLightbox1431268.show()" ID="apprenticeBox_2"><img src="assets/img/buttonApply.png" width="200" height="auto"></img></a></p>
-            <a class="visible-xs" href="http://www.formstack.com/forms/js.php?1431268-XiMahhyQLI-v3"> click</a>
-            <script type="text/javascript" src="http://www.formstack.com/forms/js.php?1431268-XiMahhyQLI-v3"> AAAA</script>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-xs-12 centered topMarginSmall">
-            <p class="textLightBG">Next Cohort: March 2014</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-
-<!-- // END APPLY & APPLY XS - Lightbox Implementation // -->
-
-
 <!-- // APPLICANTS LG, APPLICANTS MD/SM, & APPLICANTS XS// -->
 
     <section id="applicants" class="visible-lg">
@@ -788,7 +731,7 @@
               <a href="assets/docs/terms.pdf" class="bump" rel="900-600"><p class="bumpLink">A100 Apprentice Program Terms and Conditions</p></a>
 
 
-            <div class="centered topMarginBig"><a onclick="javascript:apprenticeBox_2.show()" ID="apprenticeBox_2"><img src="assets/img/buttonApply.png"></img></a>
+            <div class="centered topMarginBig"><a onclick="javascript:apprenticeBox_2.show()" id="apprenticeBox_2"><img src="assets/img/buttonApply.png"></img></a>
             </div>
           </div>
         </div>
@@ -837,7 +780,7 @@
               Or, if you have further questions about the A100 Apprentice Program, please review the Program's Terms and Conditions:</p>
               <a href="assets/docs/terms.pdf" rel="900-600"><p class="bumpLink">A100 Apprentice Program Terms and Conditions</p></a>
 
-            <div class="centered topMarginMedium"><a onclick="javascript:apprenticeBox_3.show()" ID="apprenticeBox_3"><img src="assets/img/buttonApply.png"></img></a>
+            <div class="centered topMarginMedium"><a onclick="javascript:apprenticeBox_3.show()" id="apprenticeBox_3"><img src="assets/img/buttonApply.png"></img></a>
             </div>
           </div>
         </div>
@@ -1108,20 +1051,24 @@
 <!-- // END FOOTER & FOOTER XS // -->
 
 
-    <!-- Bootstrap core JavaScript
+    <!-- JavaScript (Placed at the end of the document so the pages load faster)
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- function to prevent jQuery conflicts with Lightbox -->
     <script>jQuery.noConflict();</script>
+
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jribbble.js"></script>
     <script src="assets/js/site-ck.js"></script>
     <script src="assets/js/fsLightbox.js"></script>
 
-    <!-- A100 Partner Company Application - Lightbox HTML Form formatting and JavaScript -->\
+
+    <!-- A100 Partner Company Application - Lightbox HTML Form formatting-->\
 
     <div id="fsLightbox1453552" class="fsLightbox">
-    	<div class="fsLightboxClose"><a id="fsLightboxClose1453552" href="#" title="close"></a>
+      <div class="fsLightboxClose"><a id="fsLightboxClose1453552" href="#" title="close"></a>
        <p id="form_text">Click outside the window to close.  Your progress will be saved while on this page.</p></div>
 
        <div id="fsLightboxContent1453552" class="fsLightboxContent">
@@ -1129,16 +1076,10 @@
       </div>
     </div>
 
-    <script>
-    var partnerBox_1 = new FSLightbox({form: 1453552,
-      handle: "partnerBox_1"
-    });
-    </script>
-
-    <!-- A100 Apprentice Program Application - Lightbox HTML Form formatting and JavaScript -->
+    <!-- A100 Apprentice Program Application - Lightbox HTML Form formatting -->
 
     <div id="fsLightbox1431268"  class="fsLightbox">
-    	<div class="fsLightboxClose"><a id="fsLightboxClose1431268" href="#" title="close"></a>
+      <div class="fsLightboxClose"><a id="fsLightboxClose1431268" href="#" title="close"></a>
        <p id="form_text">Click outside the window to close.  Your progress will be saved while on this page.</p></div>
 
        <div id="fsLightboxContent1431268" class="fsLightboxContent">
@@ -1146,36 +1087,12 @@
       </div>
     </div>
 
-    <script>
-    // function(){
-
-
-    var apprenticeBox_1 = new FSLightbox({form: 1431268,
-      handle: "apprenticeBox_1"
-    });
-
-    var apprenticeBox_2 = new FSLightbox({form: 1431268, 
-      handle: "apprenticeBox_2"
-    });
-
-    var apprenticeBox_3 = new FSLightbox({form: 1431268, 
-      handle: "apprenticeBox_3"
-    });
-	// }
-    </script>
-
-
-
-
-    <!-- Bumpbox (Lightbox clone) JavaScript
-    ================================================== -->
+    <!-- Bumpbox JavaScript -->
     <script src="assets/js/mootools.js"></script>
     <script src="assets/js/bumpbox-2.0.1.js"></script>
 
-    <!-- bumpbox fields function doBump(names, inSpeed, outSpeed, boxColor, backColor, bgOpacity, bRadius, borderWeight, borderColor, boxShadowSize, boxShadowColor, iconSet) -->
-    <script>    
-     doBump('.bump',100,10,'006496','000','0.7',1,1,'000',10,'000',1);
-	</script>
+    <!-- Bumpbox and Lightbox function calls -->
+    <script src="assets/js/boxes-calls.js"></script>
 
   </body>
 </html>
